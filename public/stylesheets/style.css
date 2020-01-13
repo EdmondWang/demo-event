@@ -1,0 +1,102 @@
+body {
+  padding: 0;
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  background: #FFFFFF;
+  color: #008CE6;
+}
+
+a:visited {
+  color: #FFFFFF;
+  color: #008CE6;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background: #008CE6;
+}
+
+a:active {
+  color: #FFFFFF;
+  background: blue;
+}
+
+.list {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  background: #eee;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.list a {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding: 50px 20px;
+}
+
+.ball-blue {
+  display: none;
+  border-radius: 50%;
+  background: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.ball-red {
+  display: none;
+  border-radius: 50%;
+  background: red;
+  width: 100px;
+  height: 100px;
+}
+
+.list a:hover .ball-red {
+  display: block;
+}
+
+.messages {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  overflow: scroll;
+  right: 0;
+  top: 0;
+  z-index: 1000000000000;
+}
+
+.message {
+  background: #fff;
+  color: #999;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  text-align: center;
+  width: 100%;
+}
+
+.message.mouseover {
+  color: blue;
+}
+
+.message.mouseout {
+  color: blue;
+}
+
