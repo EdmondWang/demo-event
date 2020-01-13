@@ -40,7 +40,6 @@ function onTouchEnd(event) {
 
 function onClick(event) {
     unshift(event);
-    $('.ball-blue').show();
     event.preventDefault();
     return false;
 }
@@ -59,11 +58,3 @@ $(document).ready(function() {
 
     $('.list').on('click', 'a', onClick);
 });
-
-try {
-    $.get('https://www.google.com').catch((e) => {
-        console.log(JSON.stringify(e));
-    });
-} catch(e) {
-    console.log(JSON.stringify(e));
-};

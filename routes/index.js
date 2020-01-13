@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/disabled-input', function(req, res, next) {
+  res.render('disabled-input', { title: 'Express' });
+});
+
+
 module.exports = router;

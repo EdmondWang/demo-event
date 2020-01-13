@@ -4,6 +4,10 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+body * {
+  box-sizing: border-box;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -53,26 +57,6 @@ a:active {
   padding: 50px 20px;
 }
 
-.ball-blue {
-  display: none;
-  border-radius: 50%;
-  background: blue;
-  width: 100px;
-  height: 100px;
-}
-
-.ball-red {
-  display: none;
-  border-radius: 50%;
-  background: red;
-  width: 100px;
-  height: 100px;
-}
-
-.list a:hover .ball-red {
-  display: block;
-}
-
 .messages {
   position: fixed;
   width: 200px;
@@ -100,3 +84,16 @@ a:active {
   color: blue;
 }
 
+/* disabled-input */
+.wrapper-disabled-input {
+  width: 300px;
+  height: 200px;
+  background: #008ce6;
+}
+
+.wrapper-disabled-input input {
+  width: 300px;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+}
