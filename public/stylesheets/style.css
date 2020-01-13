@@ -96,4 +96,5 @@ a:active {
   height: 200px;
   margin: 0;
   padding: 0;
+  pointer-events: none;
 }
