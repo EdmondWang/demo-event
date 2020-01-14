@@ -96,5 +96,10 @@ a:active {
   height: 200px;
   margin: 0;
   padding: 0;
-  pointer-events: none;
+}
+
+.icon-home {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
 }
