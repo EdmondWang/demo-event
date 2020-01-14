@@ -1,6 +1,7 @@
 extends layout
 
 block content
+  p On Edge browser, `pointer-events: none` is required to make `mouseover` works on parents of disabled HTML Input elements.
   .wrapper-disabled-input
     span.icon-home
     input(type="text", disabled="disabled")

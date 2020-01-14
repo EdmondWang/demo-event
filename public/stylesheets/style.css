@@ -99,6 +99,7 @@ a:active {
 }
 
 .icon-home {
+  background: #0000FF;
   display: inline-block;
   width: 24px;
   height: 24px;
