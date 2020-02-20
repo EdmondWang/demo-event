@@ -10,5 +10,8 @@ router.get('/disabled-input', function(req, res, next) {
   res.render('disabled-input', { title: 'Express' });
 });
 
+router.get('/window-event', function(req, res, next) {
+  res.render('window-event', { title: 'Express' });
+});
 
 module.exports = router;
